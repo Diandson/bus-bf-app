@@ -15,8 +15,8 @@ const BusTicketForm = () => {
 
     const prices = [1000, 2000, 3000, 4000, 5000, 6000];
     const paymentMethods = [
-        { id: 'orange', name: 'Orange Money', logo: '/orange-money.png' },
-        { id: 'mobicash', name: 'Mobicash', logo: '/mobicash.png' }
+        { id: 'orange', name: 'Orange Money', logo: '/assets/images/orange.png' },
+        { id: 'moov', name: 'Moov Money', logo: '/assets/images/moov.png' }
     ];
 
     const handleSubmit = (e) => {
@@ -34,7 +34,6 @@ const BusTicketForm = () => {
                             data-aos-duration={1000} data-aos-offset={50}>
                             Informations personnelles
                         </h3>
-
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
                                 <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -98,8 +97,7 @@ const BusTicketForm = () => {
                                         formData.selectedPrice === price
                                             ? 'bg-green-600 text-white shadow-lg scale-105'
                                             : 'bg-gray-50 hover:bg-gray-100'
-                                    }`}
-                                >
+                                    }`}>
                                     <div className="md:text-xl xl:text-2xl font-bold">{price} FCFA</div>
                                     {formData.selectedPrice === price && (
                                         <CheckCircleIcon className="h-6 w-6 mx-auto mt-2" />
@@ -123,14 +121,9 @@ const BusTicketForm = () => {
                                      formData.paymentMethod === method.id
                                          ? 'bg-blue-50 border-2 border-green-500'
                                          : 'border-2 border-gray-200 hover:border-green-200'
-                                 }`}
-                            >
-                                <img
-                                    src={method.logo}
-                                    alt={method.name}
-                                    className="w-12 h-12 object-contain"
-                                />
-                                <span className="font-medium sm:text-lg xl:text-2xl lg:text-xl">{method.name}</span>
+                                 }`}>
+                                <img src={method.logo} alt={method.name} className="w-12 h-12 object-contain"/>
+                                <span className="font-semibold sm:text-lg xl:text-2xl lg:text-xl">{method.name}</span>
                                 {formData.paymentMethod === method.id && (
                                     <CheckCircleIcon className="h-6 w-6 text-green-500 ml-auto" />
                                 )}

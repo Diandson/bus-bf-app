@@ -9,12 +9,12 @@ export default function ModePaiement() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" >
                 {/* Multi Personnalisée Card */}
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                    <div className="bg-green-600 p-6 text-white">
+                    <div className="bg-green-600 p-4 text-white">
                         <div className="flex items-center gap-4">
                             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4z"/>
                             </svg>
-                            <h2 className="text-xl font-bold">Carte Multi personnalisée</h2>
+                            <h2 className="text-xl font-bold">Carte personnalisée</h2>
                         </div>
                     </div>
 
@@ -31,7 +31,6 @@ export default function ModePaiement() {
                                 "Usage fréquent ou occasionnel",
                                 "Abonnement + Porte-monnaie électronique",
                                 "Tarif réduit selon statut",
-                                "Correspondance de 2 heures"
                             ].map((item, index) => (
                                 <li key={index} className="flex items-start">
                                     <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,30 +40,12 @@ export default function ModePaiement() {
                                 </li>
                             ))}
                         </ul>
-
-                        <div className="mt-6 p-4 bg-gray-50 rounded-xl">
-                            <h3 className="font-semibold text-gray-700 mb-3">Points de recharge</h3>
-                            <ul className="space-y-2">
-                                {[
-                                    "En ligne (48h avant)",
-                                    "Points de service",
-                                    "Points de vente"
-                                ].map((point, index) => (
-                                    <li key={index} className="flex items-center text-gray-600">
-                                        <svg className="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                                            <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"/>
-                                        </svg>
-                                        {point}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
                     </div>
                 </div>
 
                 {/* Payment Methods Cards */}
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                    <div className="bg-blue-600 p-6 text-white">
+                    <div className="bg-blue-600 p-4 text-white">
                         <div className="flex items-center gap-4">
                             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
@@ -78,7 +59,7 @@ export default function ModePaiement() {
                         <ul className="space-y-3">
                             {[
                                 "Montant exact exigé",
-                                "Billets non acceptés",
+                                "Billets acceptés",
                                 "Pour déplacements spontanés"
                             ].map((item, index) => (
                                 <li key={index} className="flex items-center">
@@ -107,12 +88,8 @@ export default function ModePaiement() {
                         <div className="space-y-6">
                             {[
                                 {
-                                    title: "Assistance visuelle",
-                                    description: "Accompagnateur voyage gratuitement"
-                                },
-                                {
-                                    title: "Animal d'assistance",
-                                    description: "Permet d'être accompagné d'un animal"
+                                    title: "Accès illimité",
+                                    description: "Déplacement illimité sur tout le réseau"
                                 }
                             ].map((card, index) => (
                                 <div key={index} className="p-4 bg-purple-50 rounded-xl">

@@ -32,7 +32,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
 
                     <div className="logo-box">
-                        <Link href="/" aria-label="logo image"><img src="/assets/images/resources/logo-1.png" width="150" alt="" /></Link>
+                        <Link href="/" aria-label="logo image"><img src="/assets/images/logo.png" className={'w32 h-20'} alt="" /></Link>
                     </div>
 
                     <div className="mobile-nav__container">
@@ -64,7 +64,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <ul className="mobile-nav__contact list-unstyled">
                         <li>
                             <i className="fa fa-envelope"></i>
-                            <Link href="mailto:needhelp@elitecons.com">needhelp@sotrabus.bf</Link>
+                            <Link href="mailto:needhelp@elitecons.com">mairie.ouaga@mairie-ouaga.bf</Link>
                         </li>
                         <li>
                             <i className="fa fa-phone-alt"></i>

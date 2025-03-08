@@ -91,7 +91,7 @@ export default function Home() {
                         </div>
                         <div className="blog-one__single-content">
                             <div className="date-box">
-                                <h2>800</h2>
+                                <h2>432</h2>
                             </div>
                             <div className="blog-one__single-content-inner">
                                 <ul className="meta-box">
@@ -116,7 +116,7 @@ export default function Home() {
                                             <span className="icon-location"></span>
                                         </div>
                                         <div className="text-box">
-                                            <p className={'font-bold'}>Ligne du bus</p>
+                                            <p className={'font-bold'}>KARPALA - PLACE DE LA NATION</p>
                                         </div>
                                     </li>
                                 </ul>

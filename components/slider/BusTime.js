@@ -37,29 +37,29 @@ const BusTime = () => {
             id: 1,
             busNumber: "32",
             image: "/assets/images/1.jpg",
-            departure: "Karpala, ST",
-            time: "6:00"
+            departure: "Karpala",
+            time: "6h:00"
         },
         {
             id: 2,
             busNumber: "345",
             image: "/assets/images/destinations/hot-deal1.jpg",
-            departure: "Karpala, ST",
-            time: "6:00"
+            departure: "Ouaga 2000",
+            time: "9h:00"
         },
         {
             id: 3,
             busNumber: "245",
             image: "/assets/images/destinations/hot-deal1.jpg",
-            departure: "Karpala, ST",
-            time: "6:00"
+            departure: "SIAO",
+            time: "7h:00"
         },
         {
             id: 4,
             busNumber: "800",
             image: "/assets/images/destinations/hot-deal1.jpg",
-            departure: "Karpala, ST",
-            time: "6:00"
+            departure: "Roodwoko, ST",
+            time: "5h:00"
         }
     ];
 
@@ -90,7 +90,7 @@ const BusTime = () => {
                                 <span className="font-semibold text-green-600">{bus.time}</span>
                             </div>
                         </div>
-                        <Link href="destination-details" className="theme-btn style-three">
+                        <Link href={'/lignes/'+ bus.id} className="theme-btn style-three">
                             <span data-hover="Détails">Détails</span>
                             <i className="icon-right-arrow21"></i>
                         </Link>

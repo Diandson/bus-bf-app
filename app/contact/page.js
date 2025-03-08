@@ -79,28 +79,28 @@ export default function Home() {
 
                 {/* Contact Info Cards */}
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {[
                             {
                                 icon: "map-marker-alt",
                                 title: "Location",
-                                content: ["280 Granite Run Drive", "Suite Hobert, LA 90010, USA"]
+                                content: ["Rue de l'hotel de ville 01 BP 85 Ouaga 01d", "Ouaga, Burkina Faso"]
                             },
-                            {
-                                icon: "clock",
-                                title: "Working Hours",
-                                content: ["Wednesday - Sunday", "7:00 AM - 5:00 PM"]
-                            },
+                            // {
+                            //     icon: "clock",
+                            //     title: "Jour de travail",
+                            //     content: ["Lundi - Vendredi", "7h - 17h"]
+                            // },
                             {
                                 icon: "envelope",
                                 title: "Email",
-                                content: ["support@logistra.com", "info@logistra.com"],
+                                content: ["mairie.ouaga@mairie-ouaga.bf"],
                                 isLink: true
                             },
                             {
                                 icon: "phone",
                                 title: "Phones",
-                                content: ["+880 123 456 789", "+880 123 456 789"],
+                                content: ["+226 25 54 56 55"],
                                 isLink: true
                             }
                         ].map((item, index) => (

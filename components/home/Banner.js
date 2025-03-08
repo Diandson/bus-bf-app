@@ -48,7 +48,7 @@ export default function Banner() {
                                         <div className="slider-one__single-content">
                                             <div className="tagline">
                                                 <div className="round"></div>
-                                                <div className="text"><span>Bienvenu sur STB</span></div>
+                                                <div className="text"><span className={'font-bold lg:text-2xl sm:text-lg md:text-xl'}>Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)</span></div>
                                             </div>
 
                                             <div className="title-box">
@@ -77,7 +77,7 @@ export default function Banner() {
                                         <div className="slider-one__single-content">
                                             <div className="tagline">
                                                 <div className="round"></div>
-                                                <div className="text"><span>Bienvenu sur STB</span></div>
+                                                <div className="text"><span className={'font-bold lg:text-2xl sm:text-lg md:text-xl'}>Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)</span></div>
                                             </div>
 
                                             <div className="title-box">
@@ -106,7 +106,7 @@ export default function Banner() {
                                         <div className="slider-one__single-content">
                                             <div className="tagline">
                                                 <div className="round"></div>
-                                                <div className="text"><span>Bienvenu sur STB</span></div>
+                                                <div className="text"><span className={'font-bold lg:text-2xl sm:text-lg md:text-xl'}>Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)</span></div>
                                             </div>
 
                                             <div className="title-box">

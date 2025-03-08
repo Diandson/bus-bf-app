@@ -5,109 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97a7e63-7661-4407-93f1-d0e3b6bbdb2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/moov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/[slug]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AgencesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/abonnement/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/abonnement/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lignes/[slug]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lignes/[slug]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tarif/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tarif/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BusGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusGrid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/BusTicketForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusTicketForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/backgrounds/page-header-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/backgrounds/quote-v1-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/backgrounds/quote-v1-bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/backgrounds/quote-v1-bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/backgrounds/why-choose-v2-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/banner-v1-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/banner-v1-pattern2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/contact-page-top-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/counter-v3-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/cta-v1-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/footer-v1-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/page-header-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/pricing-v1-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/service-v1-pattern.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/team-details__bottom-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/team-page-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/team-v2-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/testimonial-page-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/testimonial-v1-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/why-choose-v1-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/why-choose-v2-pattern2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/pattern/working-process-v1-pattern.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-details-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-details-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-details-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/project/project-v1-img8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/service-details-img9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/services-v1-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/services-v1-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/services-v1-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/services-v2-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/services-v2-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/services/services-v2-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v1-shape2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v1-shape3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v2-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v2-shape2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v2-shape3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v2-shape4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/about-v2-shape5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/banner-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/banner-v2-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/banner-v2-shape2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/cta-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/cta-v1-shape2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/cta-v1-shape3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/faq-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/footer-v2-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/footer-v2-shape2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/footer-v2-shape3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/quote-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/skill-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/skill-v1-shape2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/testimonial-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/why-choose-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/why-choose-v2-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/why-choose-v2-shape2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/why-choose-v2-shape3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/shapes/working-process-v1-shape1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-details-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-v1-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-v1-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-v1-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-v1-img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-v1-img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-v1-img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v1-img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v1-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v2-img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v2-img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v2-img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v2-img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v2-img5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v2-img6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial/testimonial-v3-img9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ModePaiement.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ModePaiement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ReseauVente.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ReseauVente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MobileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/slider/BusTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/slider/BusTime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/module-css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/module-css/banner.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +92,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
@@ -195,7 +115,17 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -209,6 +139,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +163,7 @@
       <workItem from="1740294499856" duration="7167000" />
       <workItem from="1740531812362" duration="43000" />
       <workItem from="1740531865122" duration="35781000" />
-      <workItem from="1741062762293" duration="8212000" />
+      <workItem from="1741062762293" duration="33181000" />
     </task>
     <servers />
   </component>

@@ -914,8 +914,8 @@ Slider One
 .slider-one__single-content .tagline .round {
     position: relative;
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     background: var(--logistiq-base);
     border-radius: 50%;
     margin-right: 7px;
@@ -927,10 +927,10 @@ Slider One
 }
 
 .slider-one__single-content .tagline .text span {
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 700;
-    text-transform: uppercase;
+    /*font-size: 16px;*/
+    /*line-height: 26px;*/
+    /*font-weight: 700;*/
+    /*text-transform: uppercase;*/
     color: var(--logistiq-white);
     letter-spacing: 0.02em;
 }

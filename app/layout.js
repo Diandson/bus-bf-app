@@ -12,13 +12,23 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 
 export const metadata = {
-    title: 'STB',
-    description: 'Société de Transport du Burkina',
+    title: 'PMUGO',
+    description: 'Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)',
+    // icons: {
+    //     icon: [
+    //         {
+    //             url: "/assets/images/logo.png",
+    //         },
+    //     ],
+    // },
 }
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en" >
+        {/*<head>*/}
+        {/*    <link rel="icon" href="/assets/images/logo.png" type="image/png" sizes="32x32" />*/}
+        {/*</head>*/}
         <body>{children}</body>
         </html>
     )

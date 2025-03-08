@@ -33,7 +33,7 @@ export default function Header({ scroll, handlePopup, handleMobileMenu  }) {
 
                                                 <div className="text-box">
                                                     <p><span>Mail Us</span> <Link
-                                                            href="mailto:yourmail@email.com">[support@sotrbus.com]</Link>
+                                                            href="mailto:yourmail@email.com">[mairie.ouaga@mairie-ouaga.bf]</Link>
                                                     </p>
                                                 </div>
                                             </li>
@@ -58,8 +58,10 @@ export default function Header({ scroll, handlePopup, handleMobileMenu  }) {
                                 <div className="main-header-three__bottom-inner">
                                     <div className="main-header-three__bottom-left">
                                         <div className="logo-box">
-                                            <Link href="/"><img src="/assets/images/resources/logo-3.png"
-                                                                      alt=""/></Link>
+                                            <Link href="/">
+                                                <img src="/assets/images/logo.png" className={'w32 h-20'}
+                                                                      alt=""/>
+                                            </Link>
                                         </div>
                                     </div>
 
@@ -125,7 +127,7 @@ export default function Header({ scroll, handlePopup, handleMobileMenu  }) {
 
                                                 <div className="text-box">
                                                     <p><span>Mail Us</span> <Link
-                                                            href="mailto:yourmail@email.com">[support@logistra.com]</Link>
+                                                            href="mailto:yourmail@email.com">[mairie.ouaga@mairie-ouaga.bf]</Link>
                                                     </p>
                                                 </div>
                                             </li>
@@ -140,7 +142,8 @@ export default function Header({ scroll, handlePopup, handleMobileMenu  }) {
                                 <div className="main-header-three__bottom-inner">
                                     <div className="main-header-three__bottom-left">
                                         <div className="logo-box">
-                                            <Link href="/"><img src="/assets/images/resources/logo-3.png"
+                                            <Link href="/">
+                                                <img src="/assets/images/logo.png" className={'w32 h-20'}
                                                                       alt=""/></Link>
                                         </div>
                                     </div>

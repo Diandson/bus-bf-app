@@ -15,7 +15,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                         <div className="sidebar-info-contents">
                             <div className="content-inner">
                                 <div className="logo">
-                                    <Link href="/"><img src="assets/images/resources/sidebar-logo.png"
+                                    <Link href="/"><img src="/assets/images/logo.png" className={'w32 h-20'}
                                                               alt="" /></Link>
                                 </div>
                                 <div className="content-box">

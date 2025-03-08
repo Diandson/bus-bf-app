@@ -4,7 +4,40 @@ import Link from "next/link";
 import SectionHeading from "@/components/SectionHeader";
 import React from "react";
 
-export default function BusGrid({ buses }) {
+export default function BusGrid({buses}) {
+
+    const busData = [
+        {
+            id: 1,
+            image: "/assets/images/3.jpg",
+            number: 452,
+            ligne: "Karpala",
+            departureTime: "6h : 00",
+            outboundRoute: "KARPALA - PLACE DE LA NATION",
+            returnRoute: "PLACE DE LA NATION - KARPALA"
+        },
+        {
+            id: 2,
+            image: "/assets/images/3.jpg",
+            number: 234,
+            ligne: "Ouaga 2000",
+            departureTime: "8h : 00",
+            outboundRoute: "Ouaga 2000 - PLACE DE LA NATION",
+            returnRoute: "PLACE DE LA NATION - Ouaga 2000"
+        },
+        {
+            id: 3,
+            image: "/assets/images/3.jpg",
+            number: 810,
+            ligne: "PLACE DE LA NATION",
+            departureTime: "17h : 00",
+            outboundRoute: "PLACE DE LA NATION - Pissy",
+            returnRoute: "Pissy - PLACE DE LA NATION"
+        },
+        // Add more routes here
+    ];
+
+
     return (
         <section className="blog-page p-3">
             <div className="flex justify-end mb-10">
@@ -20,287 +53,69 @@ export default function BusGrid({ buses }) {
                 </div>
             </div>
             <div className="row">
-                {/*Start Blog One Single*/}
-                <div className="col-xl-4 col-lg-6" data-aos="fade-up"
-                     data-aos-duration={1500} data-aos-offset={50}>
-                    <div className="blog-one__single shadow">
-                        <div className="blog-one__single-img">
-                            <img src="assets/images/3.jpg" alt="" className={'w-2/4 h-48'}/>
-                        </div>
-                        <div className="blog-one__single-content">
-                            <div className="date-box">
-                                <h2>800</h2>
+                {busData.map(bus => {
+                    return <div className="col-xl-4 col-lg-6" data-aos="fade-up"
+                         data-aos-duration={1500} data-aos-offset={50} key={bus.id}>
+                        <div className="blog-one__single shadow">
+                            <div className="blog-one__single-img">
+                                <img src={bus.image} alt="" className={'w-2/4 h-48'}/>
                             </div>
-                            <div className="blog-one__single-content-inner">
-                                <ul className="meta-box">
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-location1"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">Karpala</Link></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-clock"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">6h : 00</Link></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <h2>Trajet aller</h2>
-                                <p>Trajet retour </p>
-                                <div className="btn-box">
-                                    <Link className="thm-btn" href={'/lignes/1'}>Plus...
-                                        <i className="icon-right-arrow21"></i>
-                                        <span className="hover-btn hover-bx"></span>
-                                        <span className="hover-btn hover-bx2"></span>
-                                        <span className="hover-btn hover-bx3"></span>
-                                        <span className="hover-btn hover-bx4"></span>
-                                    </Link>
+                            <div className="blog-one__single-content">
+                                <div className="date-box">
+                                    <h2>{bus.number}</h2>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/*End Blog One Single*/}
+                                <div className="blog-one__single-content-inner">
+                                    <ul className="meta-box">
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-location1"></span>
+                                            </div>
+                                            <div className="text-box">
+                                                <p><Link href="#">{bus.ligne}</Link></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-clock"></span>
+                                            </div>
+                                            <div className="text-box">
+                                                <p><Link href="#">{bus.departureTime}</Link></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div className="flex flex-col gap-3">
+                                        <div className="flex items-center gap-2 bg-gray-50 p-1 rounded-lg  transition-all duration-300">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                            </svg>
+                                            <span className="font-semibold text-gray-800">
+                                                {bus.outboundRoute}
+                                            </span>
+                                        </div>
 
-                {/*Start Blog One Single*/}
-                <div className="col-xl-4 col-lg-6" data-aos="fade-up"
-                     data-aos-duration={1500} data-aos-offset={50}>
-                    <div className="blog-one__single shadow">
-                        <div className="blog-one__single-img">
-                            <img src="assets/images/3.jpg" alt="" className={'w-2/4 h-48'}/>
-                        </div>
-                        <div className="blog-one__single-content">
-                            <div className="date-box">
-                                <h2>800</h2>
-                            </div>
-                            <div className="blog-one__single-content-inner">
-                                <ul className="meta-box">
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-location1"></span>
+                                        <div className="flex items-center gap-2 bg-gray-50 p-1 rounded-lg  transition-all duration-300">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                            </svg>
+                                            <span className="font-semibold text-gray-800">
+                                                {bus.returnRoute}
+                                            </span>
                                         </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">Karpala</Link></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-clock"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">6h : 00</Link></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <h2>Trajet aller</h2>
-                                <p>Trajet retour </p>
-                                <div className="btn-box">
-                                    <Link className="thm-btn" href={'/lignes/1'}>Plus...
-                                        <i className="icon-right-arrow21"></i>
-                                        <span className="hover-btn hover-bx"></span>
-                                        <span className="hover-btn hover-bx2"></span>
-                                        <span className="hover-btn hover-bx3"></span>
-                                        <span className="hover-btn hover-bx4"></span>
-                                    </Link>
+                                    </div>
+                                    <div className="btn-box">
+                                        <Link className="thm-btn" href={'/lignes/' + bus.id}>Plus...
+                                            <i className="icon-right-arrow21"></i>
+                                            <span className="hover-btn hover-bx"></span>
+                                            <span className="hover-btn hover-bx2"></span>
+                                            <span className="hover-btn hover-bx3"></span>
+                                            <span className="hover-btn hover-bx4"></span>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {/*End Blog One Single*/}
-
-                {/*Start Blog One Single*/}
-                <div className="col-xl-4 col-lg-6" data-aos="fade-up"
-                     data-aos-duration={1500} data-aos-offset={50}>
-                    <div className="blog-one__single shadow">
-                        <div className="blog-one__single-img">
-                            <img src="assets/images/3.jpg" alt="" className={'w-2/4 h-48'}/>
-                        </div>
-                        <div className="blog-one__single-content">
-                            <div className="date-box">
-                                <h2>800</h2>
-                            </div>
-                            <div className="blog-one__single-content-inner">
-                                <ul className="meta-box">
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-location1"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">Karpala</Link></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-clock"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">6h : 00</Link></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <h2>Trajet aller</h2>
-                                <p>Trajet retour </p>
-                                <div className="btn-box">
-                                    <Link className="thm-btn" href={'/lignes/1'}>Plus...
-                                        <i className="icon-right-arrow21"></i>
-                                        <span className="hover-btn hover-bx"></span>
-                                        <span className="hover-btn hover-bx2"></span>
-                                        <span className="hover-btn hover-bx3"></span>
-                                        <span className="hover-btn hover-bx4"></span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/*End Blog One Single*/}
-
-                {/*Start Blog One Single*/}
-                <div className="col-xl-4 col-lg-6" data-aos="fade-up"
-                     data-aos-duration={1500} data-aos-offset={50}>
-                    <div className="blog-one__single shadow">
-                        <div className="blog-one__single-img">
-                            <img src="assets/images/3.jpg" alt="" className={'w-2/4 h-48'}/>
-                        </div>
-                        <div className="blog-one__single-content">
-                            <div className="date-box">
-                                <h2>800</h2>
-                            </div>
-                            <div className="blog-one__single-content-inner">
-                                <ul className="meta-box">
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-location1"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">Karpala</Link></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-clock"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">6h : 00</Link></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <h2>Trajet aller</h2>
-                                <p>Trajet retour </p>
-                                <div className="btn-box">
-                                    <Link className="thm-btn" href={'/lignes/1'}>Plus...
-                                        <i className="icon-right-arrow21"></i>
-                                        <span className="hover-btn hover-bx"></span>
-                                        <span className="hover-btn hover-bx2"></span>
-                                        <span className="hover-btn hover-bx3"></span>
-                                        <span className="hover-btn hover-bx4"></span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/*End Blog One Single*/}
-
-                {/*Start Blog One Single*/}
-                <div className="col-xl-4 col-lg-6" data-aos="fade-up"
-                     data-aos-duration={1500} data-aos-offset={50}>
-                    <div className="blog-one__single shadow">
-                        <div className="blog-one__single-img">
-                            <img src="assets/images/3.jpg" alt="" className={'w-2/4 h-48'}/>
-                        </div>
-                        <div className="blog-one__single-content">
-                            <div className="date-box">
-                                <h2>800</h2>
-                            </div>
-                            <div className="blog-one__single-content-inner">
-                                <ul className="meta-box">
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-location1"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">Karpala</Link></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-clock"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">6h : 00</Link></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <h2>Trajet aller</h2>
-                                <p>Trajet retour </p>
-                                <div className="btn-box">
-                                    <Link className="thm-btn" href={'/lignes/1'}>Plus...
-                                        <i className="icon-right-arrow21"></i>
-                                        <span className="hover-btn hover-bx"></span>
-                                        <span className="hover-btn hover-bx2"></span>
-                                        <span className="hover-btn hover-bx3"></span>
-                                        <span className="hover-btn hover-bx4"></span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/*End Blog One Single*/}
-
-                {/*Start Blog One Single*/}
-                <div className="col-xl-4 col-lg-6" data-aos="fade-up"
-                     data-aos-duration={1500} data-aos-offset={50}>
-                    <div className="blog-one__single shadow">
-                        <div className="blog-one__single-img">
-                            <img src="assets/images/3.jpg" alt="" className={'w-2/4 h-48'}/>
-                        </div>
-                        <div className="blog-one__single-content">
-                            <div className="date-box">
-                                <h2>800</h2>
-                            </div>
-                            <div className="blog-one__single-content-inner">
-                                <ul className="meta-box">
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-location1"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">Karpala</Link></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <span className="icon-clock"></span>
-                                        </div>
-                                        <div className="text-box">
-                                            <p><Link href="#">6h : 00</Link></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <h2>Trajet aller</h2>
-                                <p>Trajet retour </p>
-                                <div className="btn-box">
-                                    <Link className="thm-btn" href={'/lignes/1'}>Plus...
-                                        <i className="icon-right-arrow21"></i>
-                                        <span className="hover-btn hover-bx"></span>
-                                        <span className="hover-btn hover-bx2"></span>
-                                        <span className="hover-btn hover-bx3"></span>
-                                        <span className="hover-btn hover-bx4"></span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/*End Blog One Single*/}
+                })}
             </div>
             <ul className="styled-pagination text-center clearfix">
                 <li className="arrow prev active"><Link href="#"><span className="icon-right-arrow3"></span></Link>

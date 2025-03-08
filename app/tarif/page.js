@@ -36,7 +36,7 @@ export default function Tarifs() {
                                                 />
                                             </svg>
                                         </span>
-                                    <h3 className="text-2xl sm:text-2xl lg:text-4xl md:text-3xl xl:text-5xl font-bold text-gray-800">Tarif régulier</h3>
+                                    <h3 className="text-2xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-gray-800">Tarif régulier</h3>
                                 </div>
                                 <span className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 text-green-600 font-bold flex items-center justify-center">
                                     <svg
@@ -51,7 +51,7 @@ export default function Tarifs() {
                             <div className={`${isAccordion === 1 ? 'block' : 'hidden'} px-8 pb-4-2 border-t border-gray-200`}>
                                 <div className="w-full my-4">
                                     {/* Pricing Cards Grid */}
-                                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
                                         {/* Monthly Subscription Card */}
                                         <div
                                             className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-6">
@@ -68,34 +68,6 @@ export default function Tarifs() {
                                                     </svg>
                                                     Déplacements illimités
                                                 </li>
-                                                <li className="flex items-center">
-                                                    <svg className="w-5 h-5 mr-2 text-green-500" fill="none"
-                                                         stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                                              strokeWidth="2" d="M5 13l4 4L19 7"/>
-                                                    </svg>
-                                                    Valide sur OC Transpo
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        {/* Electronic Wallet Card */}
-                                        <div
-                                            className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-4">
-                                            <div className="flex items-center justify-between mb-4">
-                                                <h3 className="text-xl font-bold text-gray-800">Porte-monnaie électronique</h3>
-                                                <span className="text-xl font-bold text-green-600">6 000 F/mois</span>
-                                            </div>
-                                            <p className="text-sm text-gray-600 mb-4">par passage</p>
-                                            <ul className="space-y-3 text-gray-600">
-                                                <li className="flex items-center">
-                                                    <svg className="w-5 h-5 mr-2 text-green-500" fill="none"
-                                                         stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                                              strokeWidth="2" d="M5 13l4 4L19 7"/>
-                                                    </svg>
-                                                    Correspondance de 2 heures
-                                                </li>
                                             </ul>
                                         </div>
 
@@ -107,17 +79,17 @@ export default function Tarifs() {
                                                 <div
                                                     className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
                                                     <span>1 jour</span>
-                                                    <span className="font-bold text-green-600">4 000 F/mois</span>
+                                                    <span className="font-bold text-green-600">4 000 F</span>
                                                 </div>
                                                 <div
                                                     className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
                                                     <span>3 jours</span>
-                                                    <span className="font-bold text-green-600">26 000 F/mois</span>
+                                                    <span className="font-bold text-green-600">6 000 F</span>
                                                 </div>
                                                 <div
                                                     className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
                                                     <span>7 jours</span>
-                                                    <span className="font-bold text-green-600">36 000 F/mois</span>
+                                                    <span className="font-bold text-green-600">10 000 F</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -140,7 +112,7 @@ export default function Tarifs() {
                                                 />
                                             </svg>
                                         </span>
-                                    <h3 className="text-2xl sm:text-2xl lg:text-4xl md:text-3xl xl:text-5xl font-bold text-gray-800">Tarif adultes</h3>
+                                    <h3 className="text-2xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-gray-800">Tarif adultes</h3>
                                 </div>
                                 <span className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 text-green-600 font-bold flex items-center justify-center">
                                     <svg
@@ -161,8 +133,8 @@ export default function Tarifs() {
                                         <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                                             <div className="p-4 text-white">
                                                 <div className="flex justify-between">
-                                                    <span className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-black">Programme fidelité</span>
-                                                    <span className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold ml-2 text-green-600">25 000 F / mois</span>
+                                                    <span className="text-xl font-bold text-black">Programme fidelité</span>
+                                                    <span className="text-xl font-bold ml-2 text-green-600">25 000 F / mois</span>
                                                 </div>
                                             </div>
 
@@ -178,7 +150,6 @@ export default function Tarifs() {
                                                         "Déplacement illimité toute l'année!",
                                                         "10% de rabais sur le tarif mensuel",
                                                         "Carte Multi personnalisée requise",
-                                                        "Valide sur le réseau d'OC Transpo"
                                                     ].map((item, index) => (
                                                         <li key={index} className="flex items-start">
                                                             <svg className="w-5 h-5 text-blue-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -195,8 +166,8 @@ export default function Tarifs() {
                                         <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                                             <div className="p-4 text-white">
                                                 <div className="flex justify-between">
-                                                    <span className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-black">Programme Economique</span>
-                                                    <span className=" text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold ml-2 text-green-600">15 000 F / mois</span>
+                                                    <span className="text-xl font-bold text-black">Programme Economique</span>
+                                                    <span className=" text-xl ml-2 text-green-600">15 000 F / mois</span>
                                                 </div>
                                             </div>
 
@@ -210,9 +181,8 @@ export default function Tarifs() {
                                                 <ul className="space-y-4">
                                                     {[
                                                         "Déplacements illimités mensuels",
-                                                        "Économie de 51$ sur tarif régulier",
+                                                        "Économie de 5 500f sur tarif régulier",
                                                         "Pour résidents sous seuil de faible revenu",
-                                                        "Nouveaux arrivants < 12 mois au Canada"
                                                     ].map((item, index) => (
                                                         <li key={index} className="flex items-start">
                                                             <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -227,49 +197,23 @@ export default function Tarifs() {
 
                                         {/* PME Section */}
                                         <div className="md:col-span-2 bg-white rounded-2xl shadow-lg p-6">
-                                            <div className="flex items-center justify-between mb-6">
-                                                <h3 className="text-xl font-bold text-gray-800">Porte-monnaie électronique (PME)</h3>
-                                                <span className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-green-600">2,80$ par passage</span>
-                                            </div>
-
-                                            <div className="grid md:grid-cols-2 gap-6">
-                                                <div className="space-y-4">
-                                                    <h4 className="font-semibold text-gray-700">Conditions d'admissibilité</h4>
-                                                    <ul className="space-y-3">
-                                                        {[
-                                                            "Résidents de Gatineau sous seuil de faible revenu",
-                                                            "Nouveaux arrivants < 12 mois au Canada",
-                                                            "Carte Multi personnalisée requise",
-                                                            "Demande d'admissibilité nécessaire"
-                                                        ].map((item, index) => (
-                                                            <li key={index} className="flex items-start">
-                                                                <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-                                                                </svg>
-                                                                <span className="text-gray-600">{item}</span>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-
-                                                <div className="space-y-4">
-                                                    <h4 className="font-semibold text-gray-700">Points de recharge</h4>
-                                                    <ul className="space-y-3">
-                                                        {[
-                                                            "En ligne (48h avant le voyage)",
-                                                            "Points de service",
-                                                            "Points de vente",
-                                                            "Montant entre 10$ et 110$"
-                                                        ].map((item, index) => (
-                                                            <li key={index} className="flex items-start">
-                                                                <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-                                                                </svg>
-                                                                <span className="text-gray-600">{item}</span>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
+                                            <div className="space-y-4">
+                                                <h4 className="font-semibold text-gray-700">Points de recharge</h4>
+                                                <ul className="space-y-3">
+                                                    {[
+                                                        "En ligne (48h avant le voyage)",
+                                                        "Points de service",
+                                                        "Points de vente",
+                                                        "Montant entre 3 000F et 15 000F",
+                                                    ].map((item, index) => (
+                                                        <li key={index} className="flex items-start">
+                                                            <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
+                                                            </svg>
+                                                            <span className="text-gray-600">{item}</span>
+                                                        </li>
+                                                    ))}
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -290,7 +234,7 @@ export default function Tarifs() {
                                                 />
                                             </svg>
                                         </span>
-                                    <h3 className="text-2xl sm:text-2xl lg:text-4xl md:text-3xl xl:text-5xl font-bold text-gray-800">Tarif étudiant</h3>
+                                    <h3 className="text-2xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-gray-800">Tarif étudiant</h3>
                                 </div>
                                 <span className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 text-green-600 font-bold flex items-center justify-center">
                                     <svg
@@ -309,8 +253,8 @@ export default function Tarifs() {
                                     <div className="bg-white rounded-2xl shadow-lg p-6 mb-4 mt-2">
                                         <div className="p-4 text-white">
                                             <div className="flex justify-between">
-                                                <span className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-black">Abonnement mensuel </span>
-                                                <span className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-green-600">8 000 F/mois</span>
+                                                <span className="text-xl font-bold text-black">Abonnement mensuel </span>
+                                                <span className="text-xl font-bold text-green-600">8 000 F/mois</span>
                                             </div>
                                         </div>
 
@@ -320,9 +264,7 @@ export default function Tarifs() {
                                                 <ul className="space-y-3">
                                                     {[
                                                         "Déplacements illimités mensuels",
-                                                        "Pour étudiants ≤ 20 ans",
-                                                        "Carte Multi personnalisée gratuite",
-                                                        "Valide sur OC Transpo"
+                                                        "Carte personnalisée gratuite",
                                                     ].map((item, index) => (
                                                         <li key={index} className="flex items-start">
                                                             <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -334,11 +276,10 @@ export default function Tarifs() {
                                                 </ul>
                                             </div>
 
-                                            <div className="bg-gray-50 rounded-xl p-6">
+                                            <div className="bg-gray-50 rounded-xl p-2">
                                                 <h3 className="font-semibold text-gray-700 mb-4">Documents requis</h3>
                                                 <ul className="space-y-3">
                                                     {[
-                                                        "Preuve d'âge",
                                                         "Pièce d'identité avec photo",
                                                         "Attestation d'études à temps complet"
                                                     ].map((item, index) => (

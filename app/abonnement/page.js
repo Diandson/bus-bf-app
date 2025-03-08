@@ -5,6 +5,7 @@ import Layout from "@/components/layout/Layout";
 import React from "react";
 import ModePaiement from "@/components/ModePaiement";
 import ReseauVente from "@/components/ReseauVente";
+import AgencesList from "@/components/AgencesList";
 
 
 export default function Home() {

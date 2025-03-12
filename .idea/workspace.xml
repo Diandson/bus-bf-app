@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97a7e63-7661-4407-93f1-d0e3b6bbdb2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/blog/[slug]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/blog/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AgencesList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/abonnement/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/abonnement/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lignes/[slug]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lignes/[slug]/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tarif/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tarif/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/BusGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/BusTicketForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusTicketForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ModePaiement.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ModePaiement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ReseauVente.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ReseauVente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/home/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/home/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MobileMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/slider/BusTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/slider/BusTime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/module-css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/module-css/banner.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +64,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/robot/WebstormProjects/appbusbf/public/assets/images",
+    "last_opened_file_path": "/Users/robot/WebstormProjects/appbusbf/app",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -101,8 +80,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/public/assets/css" />
       <recent name="$PROJECT_DIR$/components/slider" />
@@ -163,7 +142,7 @@
       <workItem from="1740294499856" duration="7167000" />
       <workItem from="1740531812362" duration="43000" />
       <workItem from="1740531865122" duration="35781000" />
-      <workItem from="1741062762293" duration="33181000" />
+      <workItem from="1741062762293" duration="37052000" />
     </task>
     <servers />
   </component>

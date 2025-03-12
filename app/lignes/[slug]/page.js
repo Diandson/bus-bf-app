@@ -11,6 +11,7 @@ import {
     DirectionsRenderer,
 } from '@react-google-maps/api';
 import BusRoute from "@/components/BusRoute";
+import {BusData} from "@/app/service/data";
 
 const center = { lat: 12.3714277, lng: -1.5196288 }; // Centre de Ouagadougou
 
@@ -23,11 +24,7 @@ const buses = [
 
 export default function Home() {
     const params = useParams();
-    const id = params.slug;
-    const [bus, setBus] = useState(null);
-
-    const [map, setMap] = useState(null);
-    const [directionsResponse, setDirectionsResponse] = useState(null);
+    const id = parseInt(params.slug);
 
     // Points d'arrêt du bus
     const stopPoints = [
@@ -37,48 +34,7 @@ export default function Home() {
         { lat: 12.4014277, lng: -1.5496288, name: "Arrêt 4" }
     ];
 
-    const { isLoaded } = useJsApiLoader({
-        googleMapsApiKey: 'AIzaSyDKn0RT7RqxqkIBSnMckyIil7P-shK9xqg',
-        libraries: ['places'],
-    });
-
-    const onLoad = useCallback((map) => {
-        setMap(map);
-        calculateRoute();
-    }, []);
-
-    const calculateRoute = async () => {
-        if (!window.google) return;
-
-        const directionsService = new window.google.maps.DirectionsService();
-        const waypoints = stopPoints.slice(1, -1).map(point => ({
-            location: new window.google.maps.LatLng(point.lat, point.lng),
-            stopover: true
-        }));
-
-        const results = await directionsService.route({
-            origin: new window.google.maps.LatLng(stopPoints[0].lat, stopPoints[0].lng),
-            destination: new window.google.maps.LatLng(
-                stopPoints[stopPoints.length - 1].lat,
-                stopPoints[stopPoints.length - 1].lng
-            ),
-            waypoints: waypoints,
-            travelMode: window.google.maps.TravelMode.DRIVING,
-        });
-
-        setDirectionsResponse(results);
-    };
-
-    if (!isLoaded) {
-        return <div className="h-screen flex items-center justify-center">Chargement...</div>;
-    }
-
-
-    const mapStyles = {
-        width: '100%',
-        height: '70vh',
-    }
-
+    const dataBus = BusData.find(bus => bus.id === id);
 
     return (
         <Layout headerStyle={3} footerStyle={3}>
@@ -91,7 +47,7 @@ export default function Home() {
                         </div>
                         <div className="blog-one__single-content">
                             <div className="date-box">
-                                <h2>432</h2>
+                                <h2>{dataBus.number}</h2>
                             </div>
                             <div className="blog-one__single-content-inner">
                                 <ul className="meta-box">
@@ -100,7 +56,7 @@ export default function Home() {
                                             <span className="icon-location1"></span>
                                         </div>
                                         <div className="text-box">
-                                            <p className={'font-bold'}>Karpala</p>
+                                            <p className={'font-bold'}>{dataBus.ligne}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -108,7 +64,7 @@ export default function Home() {
                                             <span className="icon-clock"></span>
                                         </div>
                                         <div className="text-box">
-                                            <p className={'font-bold'}>6h : 00</p>
+                                            <p className={'font-bold'}>{dataBus.departureTime}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -116,19 +72,18 @@ export default function Home() {
                                             <span className="icon-location"></span>
                                         </div>
                                         <div className="text-box">
-                                            <p className={'font-bold'}>KARPALA - PLACE DE LA NATION</p>
+                                            <p className={'font-bold'}>{dataBus.outboundRoute}</p>
                                         </div>
                                     </li>
                                 </ul>
-                                <h2>Nom donner au bus</h2>
+                                <h2>{dataBus.name}</h2>
                                 <p>Description du bus et autres informations </p>
                             </div>
                         </div>
                     </div>
-                    <BusRoute/>
+                    <BusRoute bus={dataBus} />
                 </div>
             </div>
         </Layout>
-
     );
 }

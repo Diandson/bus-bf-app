@@ -1,42 +1,10 @@
 'use client'
 
 import Link from "next/link";
-import SectionHeading from "@/components/SectionHeader";
 import React from "react";
+import {BusData} from "@/app/service/data";
 
 export default function BusGrid({buses}) {
-
-    const busData = [
-        {
-            id: 1,
-            image: "/assets/images/3.jpg",
-            number: 452,
-            ligne: "Karpala",
-            departureTime: "6h : 00",
-            outboundRoute: "KARPALA - PLACE DE LA NATION",
-            returnRoute: "PLACE DE LA NATION - KARPALA"
-        },
-        {
-            id: 2,
-            image: "/assets/images/3.jpg",
-            number: 234,
-            ligne: "Ouaga 2000",
-            departureTime: "8h : 00",
-            outboundRoute: "Ouaga 2000 - PLACE DE LA NATION",
-            returnRoute: "PLACE DE LA NATION - Ouaga 2000"
-        },
-        {
-            id: 3,
-            image: "/assets/images/3.jpg",
-            number: 810,
-            ligne: "PLACE DE LA NATION",
-            departureTime: "17h : 00",
-            outboundRoute: "PLACE DE LA NATION - Pissy",
-            returnRoute: "Pissy - PLACE DE LA NATION"
-        },
-        // Add more routes here
-    ];
-
 
     return (
         <section className="blog-page p-3">
@@ -53,7 +21,7 @@ export default function BusGrid({buses}) {
                 </div>
             </div>
             <div className="row">
-                {busData.map(bus => {
+                {BusData.map(bus => {
                     return <div className="col-xl-4 col-lg-6" data-aos="fade-up"
                          data-aos-duration={1500} data-aos-offset={50} key={bus.id}>
                         <div className="blog-one__single shadow">

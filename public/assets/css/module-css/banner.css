@@ -675,7 +675,7 @@ Slider One
 .slider-one__single {
     position: relative;
     display: block;
-    z-index: 1;
+    z-index: 100;
 }
 
 .slider-one__single .shape1 {
@@ -832,7 +832,7 @@ Slider One
     left: 0;
     bottom: 0;
     right: 0;
-    background: var(--logistiq-black);
+    /*background: var(--logistiq-black);*/
     background-blend-mode: luminosity;
     background-attachment: scroll;
     background-size: cover;

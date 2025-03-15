@@ -26,7 +26,7 @@ export default function BusGrid({buses}) {
                          data-aos-duration={1500} data-aos-offset={50} key={bus.id}>
                         <div className="blog-one__single shadow">
                             <div className="blog-one__single-img">
-                                <img src={bus.image} alt="" className={'w-2/4 h-48'}/>
+                                <img src={bus.image} alt="" className={'image-fluid'}/>
                             </div>
                             <div className="blog-one__single-content">
                                 <div className="date-box">

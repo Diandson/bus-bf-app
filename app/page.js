@@ -5,8 +5,6 @@ import Tarification from "@/components/Tarification";
 import React from "react";
 import Blog from "@/components/home/Blog";
 import BusTime from "@/components/slider/BusTime";
-import Brand from "@/components/home/Brands";
-import Services from "@/components/home/Services";
 
 
 export default function Home() {

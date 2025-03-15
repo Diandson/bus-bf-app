@@ -32,7 +32,7 @@ const Tarification = () => {
         tabsData: [
             {
                 id: '2',
-                imageSrc: '/assets/images/1.jpg',
+                imageSrc: '/assets/images/bus/2.png',
                 title: 'La carte Multi Tarif Régulier',
                 subtitle:
                     'Forfait de  2 500 fcfa par mois',
@@ -49,7 +49,7 @@ const Tarification = () => {
             },
             {
                 id: '1',
-                imageSrc: '/assets/images/3.jpg',
+                imageSrc: '/assets/images/bus/9.png',
                 title: 'Déplacements fréquents',
                 subtitle:
                     'Forfait de 2 000 fcfa par mois',
@@ -66,7 +66,7 @@ const Tarification = () => {
             },
             {
                 id: '3',
-                imageSrc: '/assets/images/1.jpg',
+                imageSrc: '/assets/images/bus/6.png',
                 title: 'Tarifs adultes réduits',
                 subtitle:
                     'Forfait de 4 000 fcfa par mois',

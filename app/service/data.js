@@ -3,7 +3,7 @@ export const BusData = [
     {
         id: 1,
         name: "Bus de la vallée",
-        image: "/assets/images/3.jpg",
+        image: "/assets/images/bus/10.png",
         number: 452,
         ligne: "Karpala",
         departureTime: "6h : 00",
@@ -20,7 +20,7 @@ export const BusData = [
     {
         id: 2,
         name: "Bus ouaga 2000",
-        image: "/assets/images/3.jpg",
+        image: "/assets/images/bus/10.png",
         number: 234,
         ligne: "Ouaga 2000",
         departureTime: "8h : 00",
@@ -36,7 +36,7 @@ export const BusData = [
     {
         id: 3,
         name: "Bus de la place de la nation",
-        image: "/assets/images/3.jpg",
+        image: "/assets/images/bus/10.png",
         number: 810,
         ligne: "PLACE DE LA NATION",
         departureTime: "17h : 00",
@@ -50,4 +50,48 @@ export const BusData = [
         ]
     },
     // Add more routes here
+];
+
+
+export const SliderData = [
+    {
+        id: 1,
+        backgroundImage: '/assets/images/bus/2.png',
+        tagline: 'Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)',
+        title: 'Nous offrons un',
+        titleSpan: 'Transport confortable',
+        description: 'Vivez une expérience des plus moderne et agréable de transport en commun offerte dans nos bus.'
+    },
+    {
+        id: 2,
+        backgroundImage: '/assets/images/bus/8.png',
+        tagline: 'Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)',
+        title: 'Nous offrons un',
+        titleSpan: 'Transport confortable',
+        description: 'Vivez une expérience des plus moderne et agréable de transport en commun offerte dans nos bus.'
+    },
+    {
+        id: 3,
+        backgroundImage: '/assets/images/bus/5.png',
+        tagline: 'Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)',
+        title: 'Nous offrons un',
+        titleSpan: 'Transport confortable',
+        description: 'Vivez une expérience des plus moderne et agréable de transport en commun offerte dans nos bus.'
+    },
+    {
+        id: 4,
+        backgroundImage: '/assets/images/bus/9.png',
+        tagline: 'Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)',
+        title: 'Nous offrons un',
+        titleSpan: 'Transport confortable',
+        description: 'Vivez une expérience des plus moderne et agréable de transport en commun offerte dans nos bus.'
+    },
+    {
+        id: 5,
+        backgroundImage: '/assets/images/bus/3.png',
+        tagline: 'Bienvenu sur Le Projet de Mobilité Urbaine du Grand Ouaga(PMUGO)',
+        title: 'Nous offrons un',
+        titleSpan: 'Transport confortable',
+        description: 'Vivez une expérience des plus moderne et agréable de transport en commun offerte dans nos bus.'
+    }
 ];

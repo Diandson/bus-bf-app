@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97a7e63-7661-4407-93f1-d0e3b6bbdb2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bus/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/service/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/service/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BusGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tarification.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tarification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/slider/BusTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/slider/BusTime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/module-css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/module-css/banner.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +43,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Diandson"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Diandson&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Diandson/bus-bf-app.git",
-    "accountId": "d04716a4-e821-400e-88d6-8f0fe27bc244"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Diandson/bus-bf-app.git&quot;,
+    &quot;accountId&quot;: &quot;d04716a4-e821-400e-88d6-8f0fe27bc244&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -64,7 +84,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/robot/WebstormProjects/appbusbf/app",
+    "last_opened_file_path": "/Users/robot/WebstormProjects/appbusbf/public/assets/images/bus",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,11 +100,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images/bus" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/public/assets/css" />
-      <recent name="$PROJECT_DIR$/components/slider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/lignes" />
@@ -143,6 +163,7 @@
       <workItem from="1740531812362" duration="43000" />
       <workItem from="1740531865122" duration="35781000" />
       <workItem from="1741062762293" duration="37052000" />
+      <workItem from="1741646477568" duration="19081000" />
     </task>
     <servers />
   </component>

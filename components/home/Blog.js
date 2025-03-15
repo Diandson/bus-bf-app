@@ -6,7 +6,7 @@ export default function Blog() {
     const blogData = [
         {
             id: 1,
-            image: "/assets/images/blog/blog-v1-img1.jpg",
+            image: "/assets/images/bus/12.png",
             date: { day: "15", month: "MARS" },
             author: "Marie Koné",
             title: "Nouveaux bus climatisés pour votre confort",
@@ -15,7 +15,7 @@ export default function Blog() {
         },
         {
             id: 2,
-            image: "/assets/images/blog/blog-v1-img1.jpg",
+            image: "/assets/images/bus/12.png",
             date: { day: "10", month: "MARS" },
             author: "Paul Ouédraogo",
             title: "Nouvelle ligne express Ouaga-Bobo",
@@ -24,7 +24,7 @@ export default function Blog() {
         },
         {
             id: 3,
-            image: "/assets/images/blog/blog-v1-img1.jpg",
+            image: "/assets/images/bus/12.png",
             date: { day: "05", month: "MARS" },
             author: "Sophie Traoré",
             title: "Nouveau système de réservation en ligne",

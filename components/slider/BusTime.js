@@ -36,28 +36,28 @@ const BusTime = () => {
         {
             id: 1,
             busNumber: "32",
-            image: "/assets/images/1.jpg",
+            image: "/assets/images/bus/11.png",
             departure: "Karpala",
             time: "6h:00"
         },
         {
             id: 2,
             busNumber: "345",
-            image: "/assets/images/destinations/hot-deal1.jpg",
+            image: "/assets/images/bus/11.png",
             departure: "Ouaga 2000",
             time: "9h:00"
         },
         {
             id: 3,
             busNumber: "245",
-            image: "/assets/images/destinations/hot-deal1.jpg",
+            image: "/assets/images/bus/11.png",
             departure: "SIAO",
             time: "7h:00"
         },
         {
             id: 4,
             busNumber: "800",
-            image: "/assets/images/destinations/hot-deal1.jpg",
+            image: "/assets/images/bus/11.png",
             departure: "Roodwoko, ST",
             time: "5h:00"
         }
@@ -70,7 +70,7 @@ const BusTime = () => {
                             variant={"text-start"}/>
             <Slider {...sliderProps} className="m-4">
                 {busSchedules.map((bus) => (
-                    <div key={bus.id} className="border w-64 shadow p-2"
+                    <div key={bus.id} className="border w-44 m-2 shadow p-2"
                          data-aos="flip-left" data-aos-duration={1500} data-aos-offset={50}>
                         <div className="d-flex justify-center p-2">
                             <div
@@ -90,10 +90,12 @@ const BusTime = () => {
                                 <span className="font-semibold text-green-600">{bus.time}</span>
                             </div>
                         </div>
-                        <Link href={'/lignes/'+ bus.id} className="theme-btn style-three">
-                            <span data-hover="Détails">Détails</span>
-                            <i className="icon-right-arrow21"></i>
-                        </Link>
+                        <div className={'flex justify-center'}>
+                            <Link href={'/lignes/'+ bus.id} className="theme-btn style-three">
+                                <span data-hover="Détails">Détails</span>
+                                <i className="icon-right-arrow21"></i>
+                            </Link>
+                        </div>
                     </div>
                 ))}
 

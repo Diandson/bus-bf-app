@@ -6,7 +6,6 @@ import React, {useState} from "react";
 
 export default function Tarifs() {
 
-    const [isOpen, setOpen] = useState(false)
     const [isAccordion, setIsAccordion] = useState(1)
 
     const handleAccordion = (key: number) => {

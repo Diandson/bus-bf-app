@@ -1,8 +1,6 @@
 'use client'
 
-import React, {useState} from 'react';
-import {format} from 'date-fns';
-import {fr} from 'date-fns/locale';
+import React, {useEffect, useState} from 'react';
 import SectionHeading from "@/components/SectionHeader";
 
 const fakeBusData = [
@@ -14,17 +12,13 @@ const fakeBusData = [
 const BusSchedule = () => {
     const [departure, setDeparture] = useState('');
     const [arrival, setArrival] = useState('');
-    const [date, setDate] = useState(new Date());
+    // const [date, setDate] = useState(new Date());
     const [buses, setBuses] = useState(fakeBusData);
 
-    const formattedDate = format(date, "EEEE dd MMMM yyyy", {locale: fr});
-
-    const handleSearch = () => {
-        // Here, in a real application, you would make an API call to fetch bus data
-        // based on the departure, arrival, and date.
-        // For now, we're using the fake data.
-        console.log(`Searching for buses from ${departure} to ${arrival} on ${formattedDate}`);
-    };
+    // const formattedDate = format(date, "EEEE dd MMMM yyyy", {locale: fr});
+    useEffect(() => {
+        setBuses(fakeBusData);
+    }, []);
 
     return (
         <div className="bg-gray-200 rounded-lg shadow-lg p-6 w-full" data-aos="fade-up"
@@ -61,7 +55,7 @@ const BusSchedule = () => {
                             <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                             </svg>
-                            Lieu d'arrivée
+                            {"Lieu d'arrivée"}
                         </label>
                         <div className="relative">
                             <input
@@ -87,7 +81,7 @@ const BusSchedule = () => {
             </div>
 
             {/* Results Section */}
-            {buses.length > 0 && (
+            {buses!.length > 0 && (
                 <div className="space-y-6">
                     <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-3">
                         <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,7 +91,7 @@ const BusSchedule = () => {
                     </h2>
 
                     <div className="space-y-4">
-                        {buses.map((bus, index) => (
+                        {buses!.map((bus, index) => (
                             <div key={bus.id} className="bg-white rounded-2xl shadow-md hover:shadow-xl p-6 transition-all duration-300" data-aos="fade-up"
                                  data-aos-duration={1500} data-aos-offset={50}>
                                 <div className="flex items-center gap-6">

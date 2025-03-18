@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
+import Image from "next/image";
 
 
 const BusTicketForm = () => {
@@ -171,7 +172,7 @@ const BusTicketForm = () => {
                                          ? 'bg-blue-50 border-2 border-green-500'
                                          : 'border-2 border-gray-200 hover:border-green-200'
                                  }`}>
-                                <img src={method.logo} alt={method.name} className="w-12 h-12 object-contain"/>
+                                <Image src={method.logo} alt={method.name} className="w-12 h-12 object-contain"/>
                                 <span className="font-semibold sm:text-lg xl:text-2xl lg:text-xl">{method.name}</span>
                                 {formData.paymentMethod === method.id && (
                                     <CheckCircleIcon className="h-6 w-6 text-green-500 ml-auto" />

@@ -14,7 +14,7 @@ const MissionVisionValeur = () => {
                     <h2 className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-gray-800">Mission</h2>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
-                    Notre mission est d'assurer la mobilité des personnes sur le territoire de la ville de Gatineau en leur offrant des solutions performantes de transport collectif durable qui leur permettent de se déplacer là où elles vivent, travaillent, étudient et se divertissent.
+                    {"Notre mission est d'assurer la mobilité des personnes sur le territoire de la ville de Gatineau en leur offrant des solutions performantes de transport collectif durable qui leur permettent de se déplacer là où elles vivent, travaillent, étudient et se divertissent."}
                 </p>
             </section>
 
@@ -31,7 +31,7 @@ const MissionVisionValeur = () => {
                 </div>
 
                 <div className="space-y-6">
-                    <h3 className="text-xl font-semibold text-purple-700" data-aos="fade-up" data-aos-duration={1000} data-aos-offset={50}>Aujourd'hui, l'avenir.</h3>
+                    <h3 className="text-xl font-semibold text-purple-700" data-aos="fade-up" data-aos-duration={1000} data-aos-offset={50}>{"Aujourd'hui, l'avenir."}</h3>
 
                     <div className="grid md:grid-cols-2 gap-6" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
                         <div className="space-y-4">

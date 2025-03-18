@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link";
 import React, { useState } from "react";
+import Image from "next/image";
 
 
 interface HeaderProps {
@@ -39,7 +40,7 @@ const MobileMenu = ({ handleMobileMenu }: HeaderProps) => {
                     <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
 
                     <div className="logo-box">
-                        <Link href="/" aria-label="logo image"><img src="/assets/images/logo.png" className={'w32 h-20'} alt="" /></Link>
+                        <Link href="/" aria-label="logo image"><Image src="/assets/images/logo.png" className={'w32 h-20'} alt="" /></Link>
                     </div>
 
                     <div className="mobile-nav__container">

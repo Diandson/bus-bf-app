@@ -81,7 +81,7 @@ const OrganisationStructurel = () => {
                 <h2 className="text-xl sm:text-xl lg:text-3xl md:text-2xl xl:text-4xl font-bold text-gray-800 mb-6" data-aos="fade-up" data-aos-duration={1000} data-aos-offset={50}>Enquêtes de satisfaction</h2>
 
                 <p className="text-gray-600 mb-6" data-aos="fade-up" data-aos-duration={1000} data-aos-offset={50}>
-                    Depuis 2008, une enquête annuelle est menée par une firme externe auprès d'un échantillon représentatif de la clientèle.
+                    {"Depuis 2008, une enquête annuelle est menée par une firme externe auprès d'un échantillon représentatif de la clientèle."}
                 </p>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

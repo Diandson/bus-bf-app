@@ -1,7 +1,9 @@
 'use client';
 
 import React, {useState} from 'react';
-
+interface OpenCitiesState {
+    [key: number]: boolean;
+}
 const salesPointsData = [
     {
         city: 'Ouagadougou',
@@ -132,8 +134,10 @@ const salesPointsData = [
 ];
 
 const AgencesList = () => {
-    const [searchTerm, setSearchTerm] = useState('')
-    const [openCities, setOpenCities] = useState({})
+    // const [searchTerm, setSearchTerm] = useState('')
+    const [openCities, setOpenCities] = useState<OpenCitiesState>({});
+
+
 
     const toggleCity = (cityIndex: number) => {
         setOpenCities((prev) => ({

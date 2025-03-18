@@ -1,6 +1,7 @@
 import Menu from "../Menu"
 import Link from "next/link"
 import MobileMenu from "@/components/layout/MobileMenu";
+import Image from "next/image";
 
 interface HeaderProp {
     scroll?: boolean;
@@ -8,10 +9,10 @@ interface HeaderProp {
     isMobileMenu?: boolean;
     isSidebar?: boolean;
     handleMobileMenu: () => void;
-    handleSidebar: () => void;
+    handleSidebar?: () => void;
 }
 
-export default function Header({ scroll, handlePopup, handleMobileMenu, isMobileMenu, isSidebar, handleSidebar }: HeaderProp) {
+export default function Header({ scroll, handlePopup, handleMobileMenu}: HeaderProp) {
     return (
         <>
         
@@ -69,7 +70,7 @@ export default function Header({ scroll, handlePopup, handleMobileMenu, isMobile
                                     <div className="main-header-three__bottom-left">
                                         <div className="logo-box">
                                             <Link href="/">
-                                                <img src="/assets/images/logo.png" className={'w32 h-20'}
+                                                <Image src="/assets/images/logo.png" className={'w32 h-20'}
                                                      alt=""/>
                                             </Link>
                                         </div>
@@ -153,7 +154,7 @@ export default function Header({ scroll, handlePopup, handleMobileMenu, isMobile
                                     <div className="main-header-three__bottom-left">
                                         <div className="logo-box">
                                             <Link href="/">
-                                                <img src="/assets/images/logo.png" className={'w32 h-20'}
+                                                <Image src="/assets/images/logo.png" className={'w32 h-20'}
                                                      alt=""/></Link>
                                         </div>
                                     </div>

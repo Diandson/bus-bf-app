@@ -28,8 +28,7 @@ export default function Home() {
                             </div>
 
                             <p className="text-gray-600" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
-                                Notre équipe d'experts dévoués est là pour vous guider à chaque étape de
-                                votre parcours d'assurance, garantissant que vous fassiez des choix éclairés adaptés à vos besoins spécifiques.
+                                {'Notre équipe d\'experts dévoués est là pour vous guider à chaque étape de votre parcours d\'assurance, garantissant que vous fassiez des choix éclairés adaptés à vos besoins spécifiques.'}
                             </p>
 
                             <div className="flex gap-4">

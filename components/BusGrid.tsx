@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React from "react";
 import {BusProps} from "@/app/service/data";
+import Image from "next/image";
 
 export default function BusGrid({buses}: { buses: BusProps[] }) {
 
@@ -26,7 +27,7 @@ export default function BusGrid({buses}: { buses: BusProps[] }) {
                          data-aos-duration={1500} data-aos-offset={50} key={bus.id}>
                         <div className="blog-one__single shadow">
                             <div className="blog-one__single-img">
-                                <img src={bus.image} alt="" className={'image-fluid'}/>
+                                <Image src={bus.image} alt="" className={'image-fluid'}/>
                             </div>
                             <div className="blog-one__single-content">
                                 <div className="date-box">

@@ -8,7 +8,7 @@ export const roveloUtility = {
       // Header Style and Scroll to Top
       if (document.querySelectorAll(".main-header").length) {
         const windowpos = document.documentElement.scrollTop;
-        const siteHeader = document.querySelector(".main-header");
+        const siteHeader = document.querySelector(".main-header")!;
         if (windowpos >= 100) {
           siteHeader.classList.add("fixed-header");
         } else {

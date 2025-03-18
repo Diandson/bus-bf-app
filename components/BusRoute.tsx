@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback} from 'react';
 import {
     GoogleMap,
     useJsApiLoader,
@@ -9,18 +9,19 @@ import {
 } from '@react-google-maps/api';
 import {BusProps} from "@/app/service/data";
 
-const center = { lat: 12.370216725746165, lng: -1.5295478824460456 }; // Centre de Ouagadougou
+const center = {lat: 12.370216725746165, lng: -1.5295478824460456}; // Centre de Ouagadougou
 
-export const BusRoute = ({bus}: {bus: BusProps }) => {
-    const [map, setMap] = useState(null);
-    const [directionsResponse, setDirectionsResponse] = useState(null);
+export const BusRoute = ({bus}: { bus: BusProps }) => {
+    const [map, setMap] = useState<google.maps.Map | undefined>(undefined);
 
-    const { isLoaded } = useJsApiLoader({
+    const [directionsResponse, setDirectionsResponse] = useState<google.maps.DirectionsResult | null>(null);
+
+    const {isLoaded} = useJsApiLoader({
         googleMapsApiKey: 'AIzaSyDKn0RT7RqxqkIBSnMckyIil7P-shK9xqg',
         libraries: ['places'],
     });
 
-    const onLoad = useCallback((map: never) => {
+    const onLoad = useCallback((map: google.maps.Map)  => {
         setMap(map);
         calculateRoute();
     }, []);
@@ -96,5 +97,4 @@ export const BusRoute = ({bus}: {bus: BusProps }) => {
         </div>
     );
 };
-
 export default BusRoute;

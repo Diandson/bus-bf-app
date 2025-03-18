@@ -65,7 +65,7 @@ export default function FormAbonnement() {
                   </div>
 
                   <div className="form-group" data-aos="fade-right">
-                      <label className="block text-gray-700 font-medium mb-2">Pièce d'identité *</label>
+                      <label className="block text-gray-700 font-medium mb-2">{"Pièce d'identité *"}</label>
                       <select className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
                           <option>-- Sélectionnez --</option>
                           <option value="cni">CNI</option>
@@ -79,7 +79,7 @@ export default function FormAbonnement() {
                   </div>
 
                   <div className="form-group" data-aos="fade-right" data-aos-duration={1000} data-aos-offset={50}>
-                      <label className="block text-gray-700 font-medium mb-2">Lieu d'enrôlement/Retrait *</label>
+                      <label className="block text-gray-700 font-medium mb-2">{"Lieu d'enrôlement/Retrait *"}</label>
                       <select className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
                           <option>-- Sélectionnez --</option>
                           {['OUAGA 2000', 'KARPALA', 'PISSY', 'KILWIN', 'TAMPOUY', '1200 LOGEMENT'].map((lieu) => (

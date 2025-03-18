@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 
 interface SidebarProps {
     isSidebar: boolean;
@@ -19,7 +20,7 @@ export default function Sidebar({ isSidebar, handleSidebar }: SidebarProps) {
                         <div className="sidebar-info-contents">
                             <div className="content-inner">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/images/logo.png" className={'w32 h-20'}
+                                    <Link href="/"><Image src="/assets/images/logo.png" className={'w32 h-20'}
                                                               alt="" /></Link>
                                 </div>
                                 <div className="content-box">

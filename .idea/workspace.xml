@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97a7e63-7661-4407-93f1-d0e3b6bbdb2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lignes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/lignes/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tarif/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tarif/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AgencesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AgencesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BusGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusGrid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BusRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusRoute.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BusShedule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusShedule.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BusTicketForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusTicketForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FormAbonnement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FormAbonnement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MissionVisionValeur.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MissionVisionValeur.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/OrganisationStructurel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/OrganisationStructurel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tarification.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tarification.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/Blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/slider/BrandSlider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/slider/BusTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/slider/BusTime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/slider/ProjectSlider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/slider/SectionTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,38 +70,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Node.js.Layout.js.executor": "Run",
-    "RunOnceActivity.ChatTagsLlmMigration": "true",
-    "RunOnceActivity.CodyAccountHistoryMigration": "true",
-    "RunOnceActivity.CodyAccountsIdsRefresh": "true",
-    "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
-    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
-    "RunOnceActivity.CodyHistoryLlmMigration": "true",
-    "RunOnceActivity.CodyMigrateChatHistory-v2": "true",
-    "RunOnceActivity.CodyProjectSettingsMigration": "true",
-    "RunOnceActivity.DeprecatedChatLlmMigration": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/robot/WebstormProjects/appbusbf/app",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/robot/WebstormProjects/appbusbf/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.Layout.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/robot/WebstormProjects/appbusbf/app&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/robot/WebstormProjects/appbusbf/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
@@ -95,7 +118,7 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +172,8 @@
       <workItem from="1742097764285" duration="329000" />
       <workItem from="1742258166664" duration="3511000" />
       <workItem from="1742264050825" duration="1802000" />
-      <workItem from="1742267586971" duration="2380000" />
+      <workItem from="1742267586971" duration="4165000" />
+      <workItem from="1742271818953" duration="358000" />
     </task>
     <servers />
   </component>

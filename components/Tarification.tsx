@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import SectionHeading from "@/components/SectionHeader";
+import Image from "next/image";
 
 const Tarification = () => {
   const [activeTab, setActiveTab] = useState("1");
@@ -99,7 +100,7 @@ const Tarification = () => {
                 <a
                   onClick={() => setActiveTab(tab.href)}>
                   <span className="cs_tab_link_icon cs_center">
-                    <img src="/assets/images/busicon.png" alt="Icon" />
+                    <Image src="/assets/images/busicon.png" alt="Icon" />
                   </span>
                   <span>{tab.label}</span>
                 </a>
@@ -116,7 +117,7 @@ const Tarification = () => {
                     <div className="row cs_gap_y_30 align-items-xl-center">
                       <div className="col-lg-6">
                         <div className="cs_card_thumb cs_radius_5">
-                          <img src={tab.imageSrc} alt="Department Image" />
+                          <Image src={tab.imageSrc} alt="Department Image" />
                         </div>
                       </div>
                       <div className="col-lg-6">

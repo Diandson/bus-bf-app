@@ -1,6 +1,7 @@
 import Link from "next/link"
 import SectionHeading from "@/components/SectionHeader";
 import React from "react";
+import Image from "next/image";
 export default function Blog() {
 
     const blogData = [
@@ -40,11 +41,11 @@ export default function Blog() {
             <div className="container m-4" data-aos="fade-up"
                  data-aos-duration={1500} data-aos-offset={50}>
                 <div className="row">
-                    {blogData.map((article, index) => (
+                    {blogData.map((article) => (
                         <div key={article.id} className="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                             <div className="blog-one__single">
                                 <div className="blog-one__single-img">
-                                    <img src={article.image} alt={article.alt} />
+                                    <Image src={article.image} alt={article.alt} />
                                 </div>
 
                                 <div className="blog-one__single-content">

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -16,7 +17,7 @@ export default function Footer() {
                                  data-aos-duration={1500} data-aos-offset={50}>
                                 <div className="footer-widget__single footer-one__about">
                                     <div className="footer-one__about-logo">
-                                        <Link href="/"><img src="/assets/images/logo.png" className={'w32 h-20'}
+                                        <Link href="/"><Image src="/assets/images/logo.png" className={'w32 h-20'}
                                                                   alt=""/></Link>
                                     </div>
                                     <div className="footer-one__about-contact-info">
@@ -60,7 +61,7 @@ export default function Footer() {
                                                     <span className="icon-address"></span>
                                                 </div>
                                                 <div className="text-box">
-                                                    <p>Rue de l'hotel de ville
+                                                    <p>{"Rue de l'hotel de ville"}
                                                         01 BP 85 Ouaga 01d <br/> Ouaga, Burkina Faso</p>
                                                 </div>
                                             </li>

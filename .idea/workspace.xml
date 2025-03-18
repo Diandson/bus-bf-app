@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97a7e63-7661-4407-93f1-d0e3b6bbdb2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/FormAbonnement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/abonnement/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/abonnement/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/BusTicketForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BusTicketForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MobileMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +149,7 @@
       <workItem from="1742097764285" duration="329000" />
       <workItem from="1742258166664" duration="3511000" />
       <workItem from="1742264050825" duration="1802000" />
-      <workItem from="1742267586971" duration="1870000" />
+      <workItem from="1742267586971" duration="2380000" />
     </task>
     <servers />
   </component>

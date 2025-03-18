@@ -180,9 +180,9 @@ const BusTicketForm = () => {
                         ))}
                     </div>
                 </div>
-                <div className={'flex justify-end'}>
+                <div className={'flex justify-center'}>
                     <button data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50} type="submit"
-                            className="bg-green-600 text-white py-2 px-3 rounded-md font-semibold text-lg hover:bg-green-700 transition-colors shadow-lg flex items-center justify-center gap-2">
+                            className="bg-green-600 text-white py-2 px-4 rounded-md font-semibold text-lg hover:bg-green-700 transition-colors shadow-lg flex items-center justify-center gap-2">
                         <CheckCircleIcon className="h-6 w-6" />
                         Confirmer le paiement
                     </button>

@@ -1782,7 +1782,7 @@ animation: spinner 1s infinite linear;
 
 .mobile-nav__content {
   width: 300px;
-  background-color: var(--logistiq-black);
+  /*background-color: var(--logistiq-black);*/
   z-index: 10;
   position: relative;
   height: 100%;
